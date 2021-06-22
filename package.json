@@ -30,7 +30,7 @@
   },
   "private": false,
   "devDependencies": {
-    "@bingsjs/ts-std-tools": "^0.6.7",
+    "@bingsjs/ts-std-tools": "^0.6.8",
     "@types/jest": "^26.0.23"
   }
 }

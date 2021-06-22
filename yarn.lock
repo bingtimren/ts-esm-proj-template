@@ -302,65 +302,65 @@
   resolved "http://localhost:4873/@bcoe%2fv8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bingsjs/op-commitizen@^0.3.6":
-  version "0.3.6"
-  resolved "http://localhost:4873/@bingsjs%2fop-commitizen/-/op-commitizen-0.3.6.tgz#ba01777f0477d2d77c2bd06cf6503fab4f96f8cb"
-  integrity sha512-ccw87SqRlbP7vYX8MlnnKzGzgyuTTO1MkkS5WrwsWAk07NbEBZqBblxHtwl5GjdYGelOZcfUl8VVHIjZAU7cQg==
+"@bingsjs/op-commitizen@^0.3.7":
+  version "0.3.7"
+  resolved "http://localhost:4873/@bingsjs%2fop-commitizen/-/op-commitizen-0.3.7.tgz#d4ef528ad0e3ddfded52d557a4cc7c75479593c5"
+  integrity sha512-rBI1rejKsBCZXpLdU7qgxa0POojDWqw+T9u/9d8A3L2Bl5Mgk9WTEQFtLpYwmDjVFnIAhkoe9CyHlSwE7oeJQw==
   dependencies:
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-tools" "^0.4.0"
     commitizen "^4.2.4"
     cz-conventional-changelog "^3.3.0"
 
-"@bingsjs/op-commitlint@^0.2.8":
-  version "0.2.8"
-  resolved "http://localhost:4873/@bingsjs%2fop-commitlint/-/op-commitlint-0.2.8.tgz#1d1be2894ca8075f9279c258eab7f90c59d0b2b4"
-  integrity sha512-cRt2+3CweYlhfbZ0fN2pk2kcIva1psL4G7c59xrnhw/JdZpPKF2XgwMf4lks6UoWYuMn7dGKeGvJ5tF5oT62Ng==
+"@bingsjs/op-commitlint@^0.2.9":
+  version "0.2.9"
+  resolved "http://localhost:4873/@bingsjs%2fop-commitlint/-/op-commitlint-0.2.9.tgz#ac4de4272ffa2bc3ff80fe315eef9fd5087a9d10"
+  integrity sha512-bDhG5fDQImtpJiHck/O+EGBAqCfG+NvHTJ5/eZ/LdnWE16NlP7RWthwL0qhlzJUgGSi7l7W4v8c0yinhg9be3Q==
   dependencies:
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-tools" "^0.4.0"
     "@commitlint/config-conventional" "^12.1.4"
     "@commitlint/lint" "^12.1.4"
     "@commitlint/load" "^12.1.4"
     chalk "^4.1.1"
 
-"@bingsjs/op-husky@^0.4.4":
-  version "0.4.4"
-  resolved "http://localhost:4873/@bingsjs%2fop-husky/-/op-husky-0.4.4.tgz#437fadebdedd1e2cd620bd9b694788b7df151e85"
-  integrity sha512-yHaV1uMUJigLBSpByyIfoOp/m/ZJZivrtm8KW9U62IFPHLxhFXdmUDZWx0hT1iGRMLgEVJijmyUsVnIbdx4ieA==
+"@bingsjs/op-husky@^0.4.5":
+  version "0.4.5"
+  resolved "http://localhost:4873/@bingsjs%2fop-husky/-/op-husky-0.4.5.tgz#dd0eb5cc40cf831a8e134500b00393fc6ebd6de9"
+  integrity sha512-ku6SsIc2/aTB8IkSTsgG2qj7Pfv+28qhIvokoxesmgVgtcjwx33vUhPchK+hzte20jh6Zf0LM8lkPlBbRnwiFA==
   dependencies:
-    "@bingsjs/op-commitizen" "^0.3.6"
-    "@bingsjs/op-commitlint" "^0.2.8"
-    "@bingsjs/op-lint-staged" "^0.3.5"
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-commitizen" "^0.3.7"
+    "@bingsjs/op-commitlint" "^0.2.9"
+    "@bingsjs/op-lint-staged" "^0.3.6"
+    "@bingsjs/op-tools" "^0.4.0"
     husky "^6.0.0"
 
-"@bingsjs/op-jest@^0.2.1":
-  version "0.2.1"
-  resolved "http://localhost:4873/@bingsjs%2fop-jest/-/op-jest-0.2.1.tgz#6b74e58491d2862a04bfadbcf05ad3b08a8173f4"
-  integrity sha512-fDB9ask4nOa+Aej4c9Lpaf9W0s/AIUZSicaxe5o24xiAtc+KL0hIkT2qF7T5GQHAmsMg8Mxuhor5aQ6xw/hwtA==
+"@bingsjs/op-jest@^0.2.2":
+  version "0.2.2"
+  resolved "http://localhost:4873/@bingsjs%2fop-jest/-/op-jest-0.2.2.tgz#fa02ed613300cefe745bc6fa66fecd9f5383adac"
+  integrity sha512-tOI/cDyvbWj5ZW3iXpC+EBkfm4tJMhaD/PJELEVmWYQ6ZEBoS4jRDILnsG/aIbrqPEUjBJS29ThAkITCIfZ5Wg==
   dependencies:
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-tools" "^0.4.0"
     jest "^26.6.3"
     open-cli "^6.0.1"
     ts-jest "^26.5.6"
 
-"@bingsjs/op-lint-staged@^0.3.5":
-  version "0.3.5"
-  resolved "http://localhost:4873/@bingsjs%2fop-lint-staged/-/op-lint-staged-0.3.5.tgz#ff0d7d5452a3c3a7297110f497fb4a4ea76eeea5"
-  integrity sha512-lLOMenO06r54BAsn7jbFWY2mF72oPlzyxLfwH1H6t+9sADCc8JeJbalfjPlTJE9ZUVDyYi/UU9IAqlm820h2pQ==
+"@bingsjs/op-lint-staged@^0.3.6":
+  version "0.3.6"
+  resolved "http://localhost:4873/@bingsjs%2fop-lint-staged/-/op-lint-staged-0.3.6.tgz#3528cf4c9e665fa24dc456c45aac249bbcffbe81"
+  integrity sha512-+n9E2D+2PTkDgLd6HR5UUiRFwf6rTSoKcSepCOG5i+WCPK7N/vW9Kxl7PGXA8H5IOi8WxlT2Wr+PDp0ZY3UyBA==
   dependencies:
-    "@bingsjs/op-lint" "^0.4.6"
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-lint" "^0.4.7"
+    "@bingsjs/op-tools" "^0.4.0"
     lint-staged "^11.0.0"
     markdown-toc "^1.2.0"
     prettier "^2.3.0"
     shift-n-run "^0.3.4"
 
-"@bingsjs/op-lint@^0.4.6":
-  version "0.4.6"
-  resolved "http://localhost:4873/@bingsjs%2fop-lint/-/op-lint-0.4.6.tgz#46e7cdc59eaee2eb7e67008afa76277421b3ec53"
-  integrity sha512-5FJiege27hNlum4uwFV4vOcrJNHNkUIxdPTg6KhyzlNTT/8oaqiDk+CXYHngf5NGtJwtoJAAqQ88jfHVB8AAYQ==
+"@bingsjs/op-lint@^0.4.7":
+  version "0.4.7"
+  resolved "http://localhost:4873/@bingsjs%2fop-lint/-/op-lint-0.4.7.tgz#75f3be2d5054c0a8c16b8f338a735002f9dfa630"
+  integrity sha512-EczvazPcWFA5ECYA9iZTdlm2WvU2lh3qosE2pGYJ++Mxjh7dwVo/oo4if0D40iQwxTruzwB8zf2s+ciuoTyvvQ==
   dependencies:
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-tools" "^0.4.0"
     "@typescript-eslint/eslint-plugin" "^4.22.1"
     "@typescript-eslint/parser" "^4.22.1"
     chalk "^4.1.1"
@@ -373,10 +373,10 @@
     eslint-plugin-prettier "^3.4.0"
     prettier "^2.3.0"
 
-"@bingsjs/op-tools@^0.3.3":
-  version "0.3.3"
-  resolved "http://localhost:4873/@bingsjs%2fop-tools/-/op-tools-0.3.3.tgz#242aa215ac8ef534a1ff273d94ac71e566d6c0d2"
-  integrity sha512-7vGOdI6BFv9J8lzoJ+rPZ1z5TtmAvYjlJ+PJspyaIMKjslXunwwGLIgXA5+fTlTgnVEH8SVIHjokDjMW1FQqRw==
+"@bingsjs/op-tools@^0.4.0":
+  version "0.4.0"
+  resolved "http://localhost:4873/@bingsjs%2fop-tools/-/op-tools-0.4.0.tgz#ca61b96e32af59b25ada4c85bddf191a46c0372b"
+  integrity sha512-v4MIzQdrEyNZQWeUDkxghmqau01ZTgqLoy6mVnh7dv7torpbfSOVSHGLnuiBwpCR8BpWBwWtRH0c0JpO6Z6Z1g==
   dependencies:
     chalk "^4.1.1"
     child-process-toolbox "^2.1.7"
@@ -386,30 +386,30 @@
     jsonc-parser "^3.0.0"
     ts-jest "^26.5.6"
 
-"@bingsjs/op-tscdoc@^0.2.4":
-  version "0.2.4"
-  resolved "http://localhost:4873/@bingsjs%2fop-tscdoc/-/op-tscdoc-0.2.4.tgz#3e16e2da2270ce3b3a51fbff679b69c95219243a"
-  integrity sha512-WMtKlNijc8dlUNzw+xIi09IAksh4M0Bw3OiHz8GM8sEO7KtnS8Qky2GM51RJ7ML9R/YzfXIf0idATowH7//ZBw==
+"@bingsjs/op-tscdoc@^0.2.5":
+  version "0.2.5"
+  resolved "http://localhost:4873/@bingsjs%2fop-tscdoc/-/op-tscdoc-0.2.5.tgz#639d93cfc024c50dee580a74eb2f57aa9dc97706"
+  integrity sha512-EaEWzfsyDQMJI+UWyOu3/7jeAkY2WaHQ4Jaw3csGSpNDE/ra+FaBhcV0JUo2tD0dbZSF/CMw/4P3qK7+uhA+Sw==
   dependencies:
-    "@bingsjs/op-tools" "^0.3.3"
+    "@bingsjs/op-tools" "^0.4.0"
     chalk "^4.1.1"
     open-cli "^6.0.1"
     ts-purify "^3.0.1"
     typedoc "^0.20.36"
     typescript "^4.2.4"
 
-"@bingsjs/ts-std-tools@^0.6.7":
-  version "0.6.7"
-  resolved "http://localhost:4873/@bingsjs%2fts-std-tools/-/ts-std-tools-0.6.7.tgz#44e8dbc7ff27c90115ae7e8a1f436176bbb9d15c"
-  integrity sha512-9CD4iDNHZ9TT2tLTNXLkrIzrqBK6XlJAN6XLlV0730zW1Kn+jt4E6ThfKSX/HffX6lI7PXQbYis9rTjb+7CytA==
+"@bingsjs/ts-std-tools@^0.6.8":
+  version "0.6.8"
+  resolved "http://localhost:4873/@bingsjs%2fts-std-tools/-/ts-std-tools-0.6.8.tgz#4a6947ecbd8f86418dbdaf897bb9600fba4d8702"
+  integrity sha512-TSMfwvgf2MycPJ4tl+z6SQ9udmquZZfwzWVnk9zokmqCbhmy2Pueg0JNBr7lrcwITyeXn5TsiWJfA5Jm7Vt7Qg==
   dependencies:
-    "@bingsjs/op-commitizen" "^0.3.6"
-    "@bingsjs/op-commitlint" "^0.2.8"
-    "@bingsjs/op-husky" "^0.4.4"
-    "@bingsjs/op-jest" "^0.2.1"
-    "@bingsjs/op-lint" "^0.4.6"
-    "@bingsjs/op-lint-staged" "^0.3.5"
-    "@bingsjs/op-tscdoc" "^0.2.4"
+    "@bingsjs/op-commitizen" "^0.3.7"
+    "@bingsjs/op-commitlint" "^0.2.9"
+    "@bingsjs/op-husky" "^0.4.5"
+    "@bingsjs/op-jest" "^0.2.2"
+    "@bingsjs/op-lint" "^0.4.7"
+    "@bingsjs/op-lint-staged" "^0.3.6"
+    "@bingsjs/op-tscdoc" "^0.2.5"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"

@@ -1,6 +1,9 @@
 # op-tools
 .opToolsConfig
 
+# automatic generated documents
+docs/api
+
 # Logs
 logs
 *.log

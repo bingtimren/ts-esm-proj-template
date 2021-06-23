@@ -6,60 +6,59 @@ The main purpose of this repository is to showcase a ES Module project built wit
 <!-- toc -->
 
 - [Basic assumptions](#basic-assumptions)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Workflow](#workflow)
   * [Building](#building)
   * [Debugging](#debugging)
-  * [Linting](#linting)
+  * [Linting and Formatting](#linting-and-formatting)
   * [Testing](#testing)
   * [Versioning](#versioning)
   * [Publishing](#publishing)
-  * [CD with Github Action](#cd-with-github-action)
+  * [CI with Github Action](#ci-with-github-action)
 
 <!-- tocstop -->
 
 # Basic assumptions
-- The project is to build a ES Module package with Typescript. No CommonJS support.
-- Adopts a project structure with "src", "tests" directories
-- Build into "dist" dir
-- Development workflow involves linting with eslint, and testing with jest
-- 
 
-# Getting Started
+Project layout:
+- "/src": Typescript sources 
+- "/dist": Output files (.js, .d.ts, .js.map, etc.) emitted by tsc 
+- "/test": Tests are put under "test" dir and are named with suffix ".test.ts", ".spec.ts", ".test.js", or ".spec.js"
+- "/docs": Documents, and generated API documents are put under "docs/api" dir
 
-
-# Project Structure
-
-- "src": this is the ["rootDir"](https://www.typescriptlang.org/tsconfig) field in the effective TSC configuration. Only Typescript sources under this folder is compiled and emitted to "dist" dir. Tests can also be put here with name "*.spec.ts", "*.test.ts", "*.spec.js", "*.test.js", "*.
-- "tests": tests can be put in "src" and "tests" folder. 
-
-
-# Workflow
-
-
+TSC Options:
+- "module":"es2020": emit ESM codes
+- "esModuleInterop": true
+- "target": "ES2020"
 
 ## Building
 
+`yarn build`
+
 ## Debugging
 
+Open a test file (.test.ts) in VS Code, add a break point, then use "Active Jest Test" launch option to run the test.
 
-## Linting
+## Linting and Formatting
+
+Linting and prettier is done upon git commit. To manually lint files, run
+
+`yarn op-lint **/*.ts **/*.js **/*.json`
 
 ## Testing
+
+`yarn test`
 
 ## Versioning
 
 - Initial version is 0.1.0
-- 
 
+Use semver or semantic-release to version or release
 
 
 ## Publishing
 
 - Default registry is set to use a local private registry ([Verdaccio](https://verdaccio.org/en/)). It's best to first publish to a local registry for development and testing, and only publishes to a public registry when a release is tested and stable. 
 
-## CD with Github Action
+## CI with Github Action
 
-
+See .github/workflows/build-test.yaml for details.
 

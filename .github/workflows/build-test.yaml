@@ -31,3 +31,4 @@ jobs:
     - run: rm -rf node_modules && yarn install --frozen-lockfile
     - run: yarn build
     - run: yarn test
+    - run: yarn depcheck --ignores @bingsjs/*-std-tools,@bingsjs/op-*,@types/*

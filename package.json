@@ -13,8 +13,9 @@
   },
   "scripts": {
     "build": "op-tscdoc build",
-    "test": "op-jest",
-    "doc": "op-tscdoc doc --open"
+    "test": "op-jest --coverage --report",
+    "doc": "op-tscdoc doc --open",
+    "depgraph": "op-depcruise --open"
   },
   "files": [
     "dist"
@@ -31,7 +32,8 @@
   },
   "private": false,
   "devDependencies": {
-    "@bingsjs/ts-std-tools": "^0.6.8",
+    "@bingsjs/op-depcruise": "^0.2.4",
+    "@bingsjs/ts-std-tools": "^0.6.9",
     "@types/jest": "^26.0.23"
   }
 }

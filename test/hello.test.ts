@@ -1,4 +1,7 @@
-import { hello } from "../src/";
+import { greeting } from "../src";
 test("hello", () => {
-  expect(typeof hello).toEqual("string");
+  const resultEn = greeting("John", "en");
+  const resultFr = greeting("Alice", "fr");
+  expect(resultEn).toMatch(/Hello.*John/);
+  expect(resultFr).toMatch(/Bonjour.*Alice/);
 });

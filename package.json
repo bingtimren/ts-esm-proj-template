@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "op-tscdoc build",
-    "test": "op-jest --coverage --report",
+    "test": "op-jest --coverage",
     "doc": "op-tscdoc doc --open",
     "depgraph": "op-depcruise --open"
   },
@@ -33,7 +33,7 @@
   "private": false,
   "devDependencies": {
     "@bingsjs/op-depcruise": "^0.2.4",
-    "@bingsjs/ts-std-tools": "^0.6.9",
+    "@bingsjs/ts-std-tools": "^0.6.11",
     "@types/jest": "^26.0.23"
   }
 }

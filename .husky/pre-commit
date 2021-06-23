@@ -4,3 +4,4 @@
 yarn run build
 yarn run test
 yarn op-lint-staged
+yarn depcheck --ignores @bingsjs/*-std-tools,@bingsjs/op-*,@types/*
